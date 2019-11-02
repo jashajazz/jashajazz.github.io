@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>JasH - Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">JasH - Portfolio </div>
+      <div class="list-group list-group-flush">
+        <a onclick="myFunction('linklist.html')" href="#" class="list-group-item list-group-item-action bg-light">Portfolio</a>
+        <a onclick="myFunction('about.html')" href="#" class="list-group-item list-group-item-action bg-light">About</a>
+        <a onclick="myFunction('cv.html')" href="#" class="list-group-item list-group-item-action bg-light">CV</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+	<iframe id="postFrame" src="linklist.html" height="100%" width="100%" name="iframe_a" style="border:none;"></iframe>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+	<script>
+		function myFunction(sitelink) {
+  		document.getElementById("postFrame").src = sitelink;
+		}
+	</script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
+
+
+</body>
+
+</html>
