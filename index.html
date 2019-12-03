@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<title>Home</title>
 <head>
 
   <meta charset="utf-8">
@@ -16,26 +16,53 @@
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
 
+  
 </head>
 
 <body>
 
+<style>
+
+body {
+  background-image: url('res/bg_tanz.jpg');
+  background-size: cover;
+  bbbbbackground-attachment: fixed;
+  opacity: 0.95;
+}
+background-image{
+  opacity: 0.5;
+}
+#sbbutton {
+  border-bottom-right-radius: 60px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+postFrame.body{
+  background-color:transparent;
+}
+</style>
+
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">JasH - Portfolio </div>
-      <div class="list-group list-group-flush">
-        <a onclick="myFunction('linklist.html')" href="#" class="list-group-item list-group-item-action bg-light">Portfolio</a>
-        <a onclick="myFunction('about.html')" href="#" class="list-group-item list-group-item-action bg-light">About</a>
-        <a onclick="myFunction('cv.html')" href="#" class="list-group-item list-group-item-action bg-light">CV</a>
+    <div class="bg-purple" id="sidebar-wrapper">
+      <div style="color:white;opacity: 0.9;" class="sidebar-heading">JasH - Notebooks</div>
+      <div class="list-group list-group-flush" id="sdbr" style="opacity: 0.8; border:none; margin-right: 10px">
+        <a onclick="myFunction('postgrid.html')" href="#" class="list-group-item list-group-item-action" id="sbbutton">Portfolio</a>
+        <a onclick="myFunction('about.html')" href="#" class="list-group-item list-group-item-action" id="sbbutton">About</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
-
+    
+    
+    
     <!-- Page Content -->
+    
+
+    
     <div id="page-content-wrapper">
-	<iframe id="postFrame" src="linklist.html" height="100%" width="100%" name="iframe_a" style="border:none;"></iframe>
+	  <iframe id="postFrame" src="postgrid.html" height="100%" width="100%" name="iframe_a" style="border:none;background-color:transparent"></iframe>
     </div>
     <!-- /#page-content-wrapper -->
 
@@ -49,9 +76,10 @@
 	</script>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Menu Toggle Script -->
 
 
 </body>
