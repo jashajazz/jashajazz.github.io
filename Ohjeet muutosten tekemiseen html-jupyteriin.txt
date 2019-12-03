@@ -1,5 +1,0 @@
-Jupyterin html-sivulta pitää etsiä tämä "This makes sure that the body covers the entire window and needs to"
-
-sen yläpuolelta pitää muuttaa:
-background-color: transparent;
-opacity: 0.9;
