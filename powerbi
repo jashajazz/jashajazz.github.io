@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Power BI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-content" style="max-width:1600px">
+
+<style>
+body {
+    opacity:0.95;
+    padding-left: 30px;
+}
+header {
+  color: white;
+  opacity:1;
+  font-family:"Georgia";
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width: 200px;
+}
+#rcorn {
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+#headcorn {
+  border-bottom-right-radius: 60px;
+  background: #73AD21;
+  padding: 1px;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  width: 100%;
+  background-color: #f7d736;
+  text-align: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f2f2f2;
+  color: black;
+}
+</style>
+
+<!-- !PAGE CONTENT! -->
+  
+  <!-- Post Grid-->
+  <div class="w3-row-padding  w3-animate-opacity" id="postgrid">
+  
+  <!-- Header -->
+  <header id="portfolio">
+    
+    <div class="w3-margin-bottom">
+      <div class="w3-container"  id="headcorn">
+        <h2><b>Power BI</b></h2>
+      </div>
+    </div>
+  </header>
+  
+  
+  <!-- All posts here-->
+
+    <div class="w3-margin-bottom">
+      <div class="w3-container w3-white"  id="rcorn">
+        <h3><b>Basic Sales Dashboard</b></h3>
+        <p>Basic sales dashboard with some visualizations. Original data was transformed and cleaned, connented to Power BI, modeled, added with measures, visualized. Source data is from openly shared reasearch data in UCI Repo (https://archive.ics.uci.edu/ml/datasets/Online%20Retail).
+        </p>
+        <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiM2ZjNzQ0N2QtNWE4Mi00YWQ4LTg3NDItYWM1NzdhYzFjZTBjIiwidCI6IjM2ZmNhODY1LWMwNDctNDc1YS05NDlmLTlkNzE4NmYxYzU4ZiIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+        
+        <h3><b>...me</b></h3>
+        <p>The idea is the share/present/communicate some stuff that I've explored and tested 
+        time learning data analytics, machine learning, and general data science topics. Portfolio 
+        section includes Jupyter Notebooks of small data analysis projects as well as random scripting and testing.
+        </p>
+        
+      </div>
+    </div>
+    
+
+  <!-- Posts end here -->  
+  </div>
+
+<!-- End page content -->
+
+
+</body>
+</html>
